@@ -34,7 +34,7 @@ br.com.ucsal.olimpiadas/
 ├── repository/      ← Persistência dos dados
 └── service/         ← Regras de negócio
 
-text## Princípios SOLID Aplicados
+Princípios SOLID Aplicados
 
 - **S – Single Responsibility**: Cada classe tem apenas uma responsabilidade principal.
 - **O – Open/Closed**: É possível adicionar novas funcionalidades sem alterar código existente.
