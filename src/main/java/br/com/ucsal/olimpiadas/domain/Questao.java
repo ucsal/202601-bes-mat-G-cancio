@@ -1,4 +1,4 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.domain;
 
 import java.util.Arrays;
 
@@ -64,10 +64,6 @@ public class Questao {
 		this.alternativaCorreta = normalizar(alternativaCorreta);
 	}
 
-	public boolean isRespostaCorreta(char marcada) {
-		return normalizar(marcada) == alternativaCorreta;
-	}
-
 	public static char normalizar(char c) {
 		char up = Character.toUpperCase(c);
 		if (up < 'A' || up > 'E') {
@@ -75,5 +71,4 @@ public class Questao {
 		}
 		return up;
 	}
-
 }
