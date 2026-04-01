@@ -1,4 +1,4 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.domain;
 
 import java.util.ArrayList;
 import java.util.List;
